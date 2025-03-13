@@ -67,4 +67,26 @@ a{
     coloque en la posición 3 en vez de la 2 */
     order: 3;
     width: 100%;
+    flex-direction: column;
+    gap: 30px;
+    /* transform: translateX(200%); */
+    transition: all 0.5s ease-in-out;
 }
+
+.menu li{
+    border-bottom: 1px solid var(--white);
+}
+
+.boton-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.boton-login{
+    border: 1px solid var(--white);
+    padding: 0.3rem 2rem;
+    border-radius: 0.5rem;
+}
+
