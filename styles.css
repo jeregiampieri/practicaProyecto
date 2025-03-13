@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800;900&display=swap');
+
+/* Reseteo de valores */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Creación de variables */
+:root{
+    /* Variables para los colores del proyecto */
+    --primary: #4452fe;
+    --firstText: #000;
+    --gray: #5c5c5c;
+    --darkBackground: #181818;
+    --secondaryBackground: #1e1e1e;
+    --white: #fff;
+    --ligthText: #fff;
+
+    /* Fuentes para los diferentes textos del proyecto */
+    --font: "Poppins", sans-serif;
+    --light: 400;
+    --medium: 500;
+    --bold: 700;
+}
+
+body{
+    background-color: var(--darkBackground);
+    color: var(--ligthText);
+    font-family: var(--font);
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* Estilos que se van aplicar para todos los links que coloque
+    dentro del proyecto */
+a{
+    color: var(--ligthText);
+}
