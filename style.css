@@ -54,6 +54,13 @@ a{
     color: rgb(243, 243, 243);
     font-size: 16px;
 }
+
+h1{
+    color: rgb(243, 243, 243); 
+}
+p{
+    color: rgb(243, 243, 243);
+}
 /* ----------------------------------------------------------- */
 
 .login:hover{
@@ -95,6 +102,14 @@ a{
     font-weight: 600;
 }
 
+span{
+    color: rgb(19, 161, 161);
+}
+
+/* .span{
+    font-style: oblique;
+    color: rgb(172, 178, 1);
+} */
 
 /* Web responsive */
 /* #menu-toggle:checked + .menu-items{
@@ -106,6 +121,8 @@ a{
     gap: 10px;
 } */
 
-
+.boton{
+    
+}
 
 
