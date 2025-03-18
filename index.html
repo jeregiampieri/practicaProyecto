@@ -4,37 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto practica</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Proyecto práctica</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
-    <!-- Navbar del proyecto (barra de navegación) -->
-     <header>
+    <!-- Navbar -->
+    <header>
         <nav class="nav-bar">
-            <img src="./img/logo-nucba.png" alt="Logo de NUCBA"
-            class="logo">
-            <ul class="menu">
-                <!-- Utilizo links porque cuando el usuario de click
-                 estos lo direccione al sector que están deseando navegar
-                  -->
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-            <div class="boton-contenedor">
-                <a href="#" class="boton-login">Login</a>
-                <a href="#">
-                    <!-- Se va a tener la imagen del menú en el cuál si 
-                     el usuario le hace click, se despliega -->
-                    <img src="./img/menu.png" alt="Logo del menu"
-                    class="logo-menu">
-                </a>
+            <img src="./img/logo-nucba.png" alt="Logo NUCBA"
+            class="imagen">
+            <!-- Div hecho únicamente para el boton del login -->
+            <div class="login">
+                <!-- Hacerle click te lleva al login -->
+                <a href="#">Login</a>
+            </div>
+            <!-- Div hecho para el menú -->
+            <div class="menu">
+                <label for="menu-toggle" class="menu-toggle">
+                    <img src="./img/menu.png" alt="Logo menu">
+                </label>
+                <input type="checkbox" id="menu-toggle">
+                <ul class="menu-items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
             </div>
         </nav>
-     </header>
+    </header>
+
+    <!-- Cuerpo principal(main) -->
+     <main>
+        <!-- Section 1 -: Hero -->
+         <section class="hero">
+            <div class="hero-text">
+                <h1>Predicciones de datos en <span>minutos</span>,
+                    sin escribir código
+                </h1>
+                <p>Todo el proceso de creación de algoritmos de aprendizaje
+                    automático y predicción de resultados en un solo
+                    click
+                </p>
+                <button class="boton">Click aquí</button>
+            </div>
+            <img src="./img/screens-desk.png" alt="Imagen de escitorio"
+            class="hero-imagen">
+         </section>
+     </main>
     
 </body>
 
