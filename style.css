@@ -172,3 +172,17 @@ span{
     -webkit-box-shadow: 1px 1px 3px 2px rgba(255,255,255,0.5) inset;
     -moz-box-shadow: 1px 1px 3px 2px rgba(255,255,255,0.5) inset;
 }
+
+.wsp{
+    position: fixed;
+    top: 85%;
+    left: 92.5%;
+    height: 80px;
+    width: 80px;
+}
+
+.imagen-wsp{
+    height: 100%;
+    width: 100%;
+    transition: all 0.2s ease;
+}
