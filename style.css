@@ -59,6 +59,9 @@ a{
 h1{
     color: rgb(243, 243, 243); 
 }
+h2{
+    color: rgb(243, 243, 243);
+}
 p{
     color: rgb(243, 243, 243);
 }
@@ -184,5 +187,5 @@ span{
 .imagen-wsp{
     height: 100%;
     width: 100%;
-    transition: all 0.2s ease;
 }
+
