@@ -266,3 +266,63 @@ span{
 .card-cuerpo{
     width: 280px;
 }
+
+.about-text{
+    margin-top: 30px;
+}
+
+.about-text h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 35px;
+    padding: 2.5rem 0;
+}
+
+.about-cards-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.about-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    background-color: #131415;
+    border-radius: 1rem;
+    border: 1px solid white;
+}
+
+.about-card p{
+    width: 350px;
+    color: white;
+}
+
+.about-card h3{
+    color: white;
+}
+
+.imagen-notificacion{
+    position: relative;
+    top: -20px;
+}
+
+.about-card:first-child{
+    padding: 1.5rem 1rem 3rem;
+}
+
+.about-card:last-child{
+    padding: 1.5rem 1rem 0;
+}
+
