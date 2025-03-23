@@ -475,5 +475,45 @@ si se tratara de un div */
     align-items: center;
 }
 
+/* Footer */
+.footer{
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+    padding: 1.5rem;
+    margin-top: -40px;
+}
 
+.contenedor-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-lista{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.contenedor-footer h3{
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-style: oblique;
+}
+
+.footer-imagenes{
+    display: flex;
+    gap: 10px;
+}
+
+.imagen-ubi{
+    height: 15px;
+    width: 12px;
+}
+
+.imagen-tel{
+    height: 15px;
+    width: 12px;
+}
 
