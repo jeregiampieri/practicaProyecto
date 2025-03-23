@@ -428,3 +428,29 @@ con respecto */
     font-weight: 400;
 }
 
+
+/* CTA */
+
+/* Estoy manipulando a la etiqueta section como
+si se tratara de un div */
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-cta{
+    background-color: gray;
+    display: flex;
+    gap: 50px;
+    padding: 4rem 20px;
+    width: 80%;
+
+}
+
+.cta-titulo h2{
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+
