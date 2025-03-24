@@ -114,21 +114,6 @@ span{
     font-style: oblique;
 }
 
-/* .span{
-    font-style: oblique;
-    color: rgb(172, 178, 1);
-} */
-
-/* Web responsive */
-/* #menu-toggle:checked + .menu-items{
-    display: flex;
-    flex-direction: column;
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(85%);
-    gap: 10px;
-} */
-
 .hero{
     display: flex;
     flex-direction: column;
@@ -368,7 +353,7 @@ con respecto */
 .card-1{
     display: flex;
     flex-direction: column;
-    border: 1px solid white;
+    border: 1px solid #fff;
     padding: 2rem;
     gap: 10px;
     background: rgb(0,0,0);
@@ -517,3 +502,39 @@ si se tratara de un div */
     width: 12px;
 }
 
+/* Mediaqueries para la visualización a través
+de dispositivos Mobile */
+@media (max-width: 498px){
+
+    /* Web responsive */
+
+    .menu-items{
+        width: 280px;
+    }
+
+    .menu-items li a{
+        border-bottom: 1px solid #fff;
+    }
+
+    #menu-toggle:checked + .menu-items{
+        display: flex;
+        flex-direction: column;
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(80%) translateY(85%);
+        gap: 10px;
+    }
+
+    .login{
+        border: 1px solid  white;
+        padding: 10px 35px;
+        border-radius: 0.7rem;
+        position: relative;
+        left: 45%;
+        transition: all 0.2s ease;
+    }
+
+
+
+
+}
