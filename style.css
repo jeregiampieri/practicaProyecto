@@ -537,7 +537,7 @@ de dispositivos Mobile */
     .menu-toggle{
         position: absolute;
         left: 34%;
-        top: 28%;
+        top: 27%;
     }
 
     .menu-toggle img{
@@ -556,7 +556,7 @@ de dispositivos Mobile */
     }
 
     #menu-toggle:checked + .menu-items{
-        transform: translateX(15%) translateY(75%);
+        transform: translateX(5%) translateY(75%);
     }
 
     /* Funcionalidad que no esta funcionando
@@ -566,7 +566,26 @@ de dispositivos Mobile */
     }
 
     /* Fin de los ajustes de los items del menu */
-}
+
+    /* Ajustes del texto (hero) */
+    .hero{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50vw;
+        margin-top: 15%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .hero-text h1{
+        font-size: 1.2rem;
+    }
     
+    .hero-text p{
+        font-size: 0.7rem;
+    }
 
 
+}
