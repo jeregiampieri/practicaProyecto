@@ -504,12 +504,26 @@ si se tratara de un div */
 
 /* Mediaqueries para la visualización a través
 de dispositivos Mobile */
-@media (max-width: 498px){
+@media (max-width: 498px){ 
 
-    /* Web responsive */
+    .nav-bar{
+        max-width: 100%;
+        position: relative;
+    }
+
+    .login{
+        position: absolute;
+        left: 30%;
+    }
+
+    .menu-toggle{
+        position: absolute;
+        right: 32%;
+        top: 28%;
+    }
 
     .menu-items{
-        width: 280px;
+        transition: all 0.1s ease;
     }
 
     .menu-items li a{
@@ -521,20 +535,33 @@ de dispositivos Mobile */
         flex-direction: column;
         opacity: 1;
         visibility: visible;
-        transform: translateX(80%) translateY(85%);
+        transform: translateX(-230%) translateY(85%);
         gap: 10px;
     }
 
-    .login{
-        border: 1px solid  white;
-        padding: 10px 35px;
-        border-radius: 0.7rem;
-        position: relative;
-        left: 45%;
-        transition: all 0.2s ease;
+    .hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        gap: 4rem;
+        padding: 4rem 0;
     }
 
+    .hero-text{
+        justify-content: center;
+        text-align: center;
+        max-width: 500px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
 
-
-
+    .hero-text h1{
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+    
 }
+    
+
+
